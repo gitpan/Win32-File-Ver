@@ -1,5 +1,10 @@
-Win32/File/Ver version 0.02
+Win32-File-Ver version 0.03
 ===========================
+
+This is a frozen bacwards compatibility release!
+
+The name of this module has changed to Win32-File-VersionInfo, so please
+use that instead.
 
 This module lets you read the version information resource from files 
 in the Microsoft PE format (including programs, DLLs, fonts, etc.)

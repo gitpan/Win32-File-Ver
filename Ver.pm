@@ -33,6 +33,8 @@ Win32::File::Ver - Read program version information on Win32
 
 =head1 ABSTRACT
 
+Name changed to Win32::File::VersionInfo. Please use that instead!
+
 Win32::File::Ver - Perl extension for reading the version information resource 
 from files in the Microsoft Portable Executable (PE) format ( including
 programs, DLLs, fonts, drivers, etc. ).  
@@ -82,7 +84,7 @@ Possible flags are:
 
 =item OS
 
-A two part string separated by a slash (e.g. "NT/Windows 32"). The first part
+A two part string separated by a slash (e.g. "NT/Win32"). The first part
 can be one of:
 
 =over
@@ -250,8 +252,6 @@ Usually only one language will appear, and usually that will be
 S<"English (United States)">.
 
 =back
-
-For some examples, see the output of `make test`.
 
 Realistically, almost nothing ever uses this information, and the only thing that
 writes it is the linker that created the PE file in the first place. The only
