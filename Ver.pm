@@ -1,6 +1,5 @@
 package Win32::File::Ver;
 
-use 5.008;
 use strict;
 use warnings;
 
@@ -12,7 +11,7 @@ our @ISA = qw(Exporter);
 our @EXPORT = qw( GetFileVersion );
 our @EXPORT_OK = qw(  );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 XSLoader::load('Win32::File::Ver', $VERSION);
 
 1;
@@ -265,7 +264,7 @@ Look up "GetFileVersionInfo" in the Microsoft Platform SDK, and browse from ther
 
 =head1 AUTHOR
 
-Alexey Toptygin E<lt>alexeyt@freeshell.orgE<gt> L<http://alexeyt.freeshell.org/>
+Alexey Toptygin E<lt>alexeyt@cpan.orgE<gt> L<http://alexeyt.freeshell.org/>
 
 =head1 COPYRIGHT AND LICENSE
 

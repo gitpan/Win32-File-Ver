@@ -1,4 +1,4 @@
-Win32/File/Ver version 0.01
+Win32/File/Ver version 0.02
 ===========================
 
 This module lets you read the version information resource from files 
@@ -26,7 +26,7 @@ As the name implies, this module is only ever meaningful on Win32.
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2003 Alexey Toptygin <alexeyt@freeshell.org>
+Copyright (C) 2003 Alexey Toptygin <alexeyt@cpan.org>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 
