@@ -1,9 +1,14 @@
 Revision history for Perl extension Win32::File::Ver.
 
+0.04  Fri Oct 24 12:26:00 2003
+	- I forgot to increment the version number in Ver.pm for 0.03. Since 
+		PAUSE won't let me overwrite the file, I make a new 
+		version. I am sad :-P
+
 0.03  Mon Oct 20 09:31:00 2003
-	- last release under this name! name has changed to Win32::File::VersionInfo,
-		so please use that instead. 0.03 of this will renain for backwards
-		compatibility only.
+	- last release under this name! name has changed to 
+		Win32::File::VersionInfo, so please use that instead. 0.03 
+		of this will renain for backwards compatibility only.
 
 0.02  Tue Aug 12 09:53:13 2003
 	- removed use 5.008 from Makefile.PL and Ver.pm as suggested by

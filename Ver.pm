@@ -11,7 +11,7 @@ our @ISA = qw(Exporter);
 our @EXPORT = qw( GetFileVersion );
 our @EXPORT_OK = qw(  );
 
-our $VERSION = '0.02';
+our $VERSION = '0.04';
 XSLoader::load('Win32::File::Ver', $VERSION);
 
 1;
